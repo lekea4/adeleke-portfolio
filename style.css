@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: ;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 body {
@@ -18,12 +18,31 @@ body {
 .left {
     flex: 0 1 5%;
     order: 0;
-    background: #111b22;
+    position: fixed;
+    height: 100vh;
+    width: 3%;
+    background: #000000;
 
 }
 
+.nav-icons {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 1%;
+}
+
+i .fas {
+    color: #d2dae2;
+}
+
+.nav-icons a {
+    margin: 100% 0;
+    text-decoration: none;
+    color: #d2dae2;
+}
+
 .content {
-    flex: 1 1 90%;
+    flex: 1 1 95% !important;
     order: 1;
 }
 
@@ -37,7 +56,11 @@ body {
     background: #ef5777;
     display: flex;
     flex-direction: row;
+    width: 100vw;
+
 }
+
+
 
 .hero-intro {
     margin: 3%;
@@ -53,20 +76,20 @@ body {
 
 .about {
     height: 80vh;
-    background: #3c40c6;
-    /* display: flex;
-    flex-direction: column; */
+    background: url(./imgs/about-background.jpg);
+
 }
 
 .about-content {
-    background: whitesmoke;
+    background: #6c5ce7;
     margin: 5%;
     height: 80%;
+    width: 100vw;
 }
 
 .skills {
     height: 80vh;
-    background: #485460;
+    background: url(./imgs/skills-background.jpg);
 }
 
 .skills-content {
@@ -88,49 +111,37 @@ body {
 }
 
 .contact {
+
     height: 80vh;
-    background: #808e9b;
+    background: url(./imgs/contact-background.jpg);
+    width: 100vw;
 }
 
 .contact-content {
-    background: whitesmoke;
+    background: #fdfaf6;
     margin: 5%;
     height: 80%;
 }
 
 
-
-
-
-
 .right {
     flex: 0 0 5%;
     order: 2;
-    background: #05c46b;
-
+    position: fixed;
+    right: 0%;
+    height: 100vh;
+    width: 3%;
+    background: transparent;
 }
 
-
-
-
-/* .left {
-    height: 100%;
-    width: 5%;
-    background: #1e272e;
-    position: fixed !important;
-    z-index: 1;
-    overflow: auto;
-} */
-
-/*
-.right {
+.socials-icons {
     display: flex;
+    flex-direction: column;
+    margin: 5% 1%;
+}
 
-    height: 100%;
-    width: 5%;
-    background: #05c46b;
-    position:  !important;
-    z-index: ;
-    overflow: auto;
-
-} */
+.socials-icons a {
+    margin: 100% 0;
+    text-decoration: none;
+    color: #0f1123;
+}
