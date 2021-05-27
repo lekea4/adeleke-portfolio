@@ -53,75 +53,221 @@ i .fas {
 
 .hero {
     height: 80vh;
-    background: #ef5777;
+    background: #f6f0e6;
     display: flex;
     flex-direction: row;
-    width: 100vw;
 
 }
 
 
 
 .hero-intro {
-    margin: 3%;
+    margin: 10% 0 0 10%;
     width: 50%;
-    background: #d2dae2;
+    background: transparent;
 }
 
+.hero-intro h2 {
+    font-size: 4em;
+    font-weight: 200;
+}
+
+.hero-intro p {
+    font-size: 2.6em;
+    font-weight: 500;
+
+}
+
+.hero-intro button {
+    width: 40%;
+    height: 50px;
+    margin: 4%;
+    background: #1e272e;
+    border: #000000;
+
+    border-radius: .8em;
+
+}
+
+.hero-intro button a {
+    text-decoration: none;
+    color: #fdfaf6;
+
+}
+
+
 .hero-img {
-    margin: 3%;
+    margin: 10% 10% 0 0;
     width: 50%;
-    background: #485460;
+    background: transparent;
+    width: fit-content;
+    height: fit-content;
+}
+
+.hero-img img {
+    border-radius: 10%;
 }
 
 .about {
     height: 80vh;
-    background: url(./imgs/about-background.jpg);
-
+    background: #f2ebeb;
 }
 
+
 .about-content {
-    background: #6c5ce7;
-    margin: 5%;
-    height: 80%;
-    width: 100vw;
+    background: #d2dae2;
+    margin: 8% auto;
+    height: 60%;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    border-bottom-left-radius: 1em;
+    border-top-left-radius: 1em;
+}
+
+.about-content img {
+    width: 40%;
+
+    border-radius: 1em;
+}
+
+.about-desc h2 {
+    text-align: center;
+    padding-top: 3%;
+}
+
+
+
+.about-desc p {
+    padding: 2% 8%;
+
 }
 
 .skills {
     height: 80vh;
-    background: url(./imgs/skills-background.jpg);
+    background: #d6f4fa;
 }
 
 .skills-content {
     background: whitesmoke;
-    margin: 5%;
-    height: 80%;
+    margin: 8% auto;
+    height: 70%;
+    width: 80vw;
+
 }
 
+.skills-content h2 {
+    text-align: center;
+    margin-bottom: 3%;
+    padding-top: 3%;
+}
+
+.skills-icons {
+    display: flex;
+    justify-content: space-evenly;
+}
 
 .projects {
     height: 80vh;
-    background: #ffa801;
+    background: url(./imgs/pexels-scott-webb-136419.jpg);
 }
 
 .projects-content {
     background: whitesmoke;
-    margin: 5%;
+    margin: 5% auto;
     height: 80%;
+    width: 80vw;
+}
+
+.projects-content h2 {
+    text-align: center;
+    margin-bottom: 3%;
+    padding-top: 3%;
+}
+
+.project-lists {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    width: 20%;
+    height: 15em;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.project-card-desc a {
+    text-decoration: none;
+    color: #218c74;
+}
+
+.project-card img {
+    width: 100%;
+    height: 70%;
+
+}
+
+.project-card-desc {
+    text-align: center;
+}
+
+.projects-content button {
+    margin-top: 3%;
+    margin-left: 80%;
+    width: 10%;
+    height: 50px;
+    background: #485460;
+    border: #000000;
+    color: whitesmoke;
+    border-radius: .8em;
+
+}
+
+.projects-content button a {
+    text-decoration: none;
+    color: whitesmoke;
 }
 
 .contact {
 
     height: 80vh;
-    background: url(./imgs/contact-background.jpg);
+    background: url(./imgs/pexels-lumn-399161.jpg);
     width: 100vw;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-top: 2%;
+    color: black;
 }
 
 .contact-content {
     background: #fdfaf6;
-    margin: 5%;
-    height: 80%;
+    margin: 3% auto;
+    height: 70%;
+    width: 80vw;
 }
+
+.contact-content form {
+    padding-left: 5%;
+    padding-top: 3%;
+}
+
+b {
+    color: red;
+}
+
+.contact-content button {
+    width: 10%;
+    height: 50px;
+    background: #485460;
+    border: #000000;
+    color: whitesmoke;
+    border-radius: .8em;
+}
+
 
 
 .right {
